@@ -1,12 +1,10 @@
 workspace.code-workspace
-.vscode
 crewai
 .cache
 __pycache__
 chroma.sqlite3
 test
 dist
-.env
 assets
 .idea
 .DS_Store
@@ -75,3 +73,4 @@ agents/praisonaiagents/praisonaiagents.egg-info
 # Local Netlify folder
 .netlify
 .qodo
+config.bat
