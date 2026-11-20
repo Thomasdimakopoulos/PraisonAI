@@ -5,12 +5,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "test": "jest",
     "lint": "eslint . --ext .ts",
     "prepare": "npm run build",
-    "start": "node init && ts-node src/main.ts",
-    "dev": "node init && ts-node-dev --respawn src/main.ts",
+    "start": "ts-node src/main.ts",
+    "dev": "ts-node-dev --respawn src/main.ts",
     "example:arxiv": "ts-node examples/tools/arxiv-tools.ts",
     "clean": "rimraf dist",
     "prebuild": "npm run clean"

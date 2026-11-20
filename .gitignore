@@ -74,3 +74,4 @@ agents/praisonaiagents/praisonaiagents.egg-info
 .netlify
 .qodo
 config.bat
+.env
